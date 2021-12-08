@@ -8,7 +8,7 @@ body {
     font-family: helvetica;
     background-color: pink;
   }
-  nav {
+  nav, footer {
     background-color: white;
     max-width: 100%;
     padding: .5em;
@@ -35,13 +35,11 @@ body {
     width: 10em;
     border: none;
     border-radius: 30px;
+    
   }
   button:hover {
     font-size: 1em;
   }
   footer {
-    max-width: 100%;
-      padding: 1em;
-      background-color: white;
       text-align: center;
   }
