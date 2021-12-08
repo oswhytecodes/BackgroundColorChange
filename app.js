@@ -3,8 +3,9 @@
 // I would also like the color that was chosen to be displayed on the button (will do this next)
 
 let btn = document.getElementById('btn')
+let txt = document.getElementById('text')
 
-const colors = ['red', 'green', 'blue', 'orange', 'brown', 'purple', 'gray', 'white'];
+const colors = ['red', 'yellow', 'blue', 'brown', 'orange', 'green', 'violet', 'black', 'indigo', 'gray'];
 
 //  const randomColor  choose a random color from the colors array
 
@@ -14,8 +15,7 @@ const colors = ['red', 'green', 'blue', 'orange', 'brown', 'purple', 'gray', 'wh
 
 btn.addEventListener("click", colorChange => {
   const randomColor = Math.floor(Math.random() * colors.length);
-  console.log(randomColor);
   const bgColor = colors[randomColor];
-  console.log(bgColor);
  document.body.style.backgroundColor = bgColor;
+ txt.textContent = bgColor;
 });
