@@ -3,7 +3,6 @@
 // I would also like the color that was chosen to be displayed on the button (will do this next)
 
 let btn = document.getElementById('btn')
-let txt = document.getElementById('text')
 
 const colors = ['red', 'yellow', 'blue', 'brown', 'orange', 'green', 'violet', 'black', 'indigo', 'gray', 'aqua', 'beige', 'coral',  'olivegreen', 'seagreen', 'slateblue', 'gold', 'goldenrod', 'greenyellow', 'indigo', 'lightblue', 'linen', 'mistyrose'];
 
@@ -18,4 +17,6 @@ btn.addEventListener("click", colorChange => {
   const bgColor = colors[randomColor];
  document.body.style.backgroundColor = bgColor;
  btn.textContent = bgColor;
+ btn.style.color = bgColor;
+ 
 });
