@@ -5,7 +5,7 @@
 let btn = document.getElementById('btn')
 let txt = document.getElementById('text')
 
-const colors = ['red', 'yellow', 'blue', 'brown', 'orange', 'green', 'violet', 'black', 'indigo', 'gray'];
+const colors = ['red', 'yellow', 'blue', 'brown', 'orange', 'green', 'violet', 'black', 'indigo', 'gray', 'olive', 'slateblue', 'gold', 'lightblue'];
 
 //  const randomColor - choose a random color from the colors array
 
@@ -16,6 +16,7 @@ const colors = ['red', 'yellow', 'blue', 'brown', 'orange', 'green', 'violet', '
 btn.addEventListener("click", colorChange => {
   const randomColor = Math.floor(Math.random() * colors.length);
   const bgColor = colors[randomColor];
+  document.write(bgColor)
  document.body.style.backgroundColor = bgColor;
  btn.textContent = bgColor;
 });

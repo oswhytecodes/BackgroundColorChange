@@ -6,7 +6,7 @@
 body {
     max-width: 100%;
     font-family: helvetica;
-    background-color: pink;
+    background-color: #222;
   }
   nav, footer {
     background-color: white;
