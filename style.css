@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: helvetica;
+    background-color: pink;
+  }
+  nav {
+    background-color: white;
+    width: 100%;
+    padding: .5em;
+    
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10em auto;
+    width: 100%;
+  }
+  button {
+    height: 3em;
+    width: 15em;
+    border: none;
+    border-radius: 30px;
+  }
+  button:hover {
+    font-size: 1em;
+  }
