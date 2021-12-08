@@ -19,6 +19,8 @@ body {
     width: 100%;
   }
   button {
+      background-color: black;
+      color: white;
     height: 3em;
     width: 15em;
     border: none;
@@ -26,4 +28,10 @@ body {
   }
   button:hover {
     font-size: 1em;
+  }
+  footer {
+      width: 100%;
+      padding: .1em;
+      background-color: white;
+      text-align: center;
   }
