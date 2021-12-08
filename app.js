@@ -7,9 +7,9 @@ let txt = document.getElementById('text')
 
 const colors = ['red', 'yellow', 'blue', 'brown', 'orange', 'green', 'violet', 'black', 'indigo', 'gray'];
 
-//  const randomColor  choose a random color from the colors array
+//  const randomColor - choose a random color from the colors array
 
-// const bgColor  created a variable to handle the array of colors
+// const bgColor - created a variable to handle the array of colors
 
 // used the addEventListener instead of onclick .. then put all the code inside the colorChange function
 
@@ -17,5 +17,5 @@ btn.addEventListener("click", colorChange => {
   const randomColor = Math.floor(Math.random() * colors.length);
   const bgColor = colors[randomColor];
  document.body.style.backgroundColor = bgColor;
- txt.textContent = bgColor;
+ btn.textContent = bgColor;
 });

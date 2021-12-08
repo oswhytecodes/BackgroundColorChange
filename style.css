@@ -17,8 +17,7 @@ body {
     padding: 2em;
     color: white;
   }
-  
-
+ 
   section {
     display: flex;
     flex-direction: column;
@@ -35,7 +34,7 @@ body {
     width: 10em;
     border: none;
     border-radius: 30px;
-    
+    text-transform: uppercase;
   }
   button:hover {
     font-size: 1em;
