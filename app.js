@@ -4,7 +4,7 @@
 
 let btn = document.getElementById('btn')
 
-const colors = ['red', 'yellow', 'blue', 'brown', 'orange', 'green', 'violet', 'black', 'indigo', 'gray', 'aqua', 'beige', 'coral',  'olivegreen', 'seagreen', 'slateblue', 'gold', 'goldenrod', 'greenyellow', 'indigo', 'lightblue', 'linen', 'mistyrose'];
+const colors = ['red', 'yellow', 'blue', 'brown', 'orange', 'green', 'violet', 'black', 'indigo', 'gray', 'aqua', 'beige', 'coral',  'darkolivegreen', 'seagreen', 'slateblue', 'gold', 'goldenrod', 'greenyellow', 'indigo', 'lightblue', 'linen', 'mistyrose'];
 
 //  const randomColor - choose a random color from the colors array
 
