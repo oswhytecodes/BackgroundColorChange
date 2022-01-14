@@ -28,6 +28,9 @@ body {
     align-items: center;
     max-width: 100%;
   }
+.btn-container {
+max-width: 60%;
+}
   button {
       background-color: black;
       font-weight: 900;
